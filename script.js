@@ -15,19 +15,20 @@ function carregar() {
         // bom dia
         msg.innerHTML += `<br>Tenha um ótimo dia!! Good Morning!!`
         img.src = 'imagens/dia.png.jpg'
-        h1.innerText = 'Oie'
+        h1.innerText = 'Bom dia!'
         document.body.style.background = 'yellow'
     } else if (hora >= 12 && hora <= 18) {
         //boa tarde
         msg.innerHTML += `<br>Tenha uma ótima tarde! Good Evening!!`
         img.src = 'imagens/tarde.png.jpg'
         document.body.style.background = 'Darkorange'
-        document.body.header.h1 = 'Tenha uma ótima noite/ Good Night!!'
+        h1.innerText = 'Boa Tarde!'
     } else {
         // boa noite
         msg.innerHTML += `<br>Boa noite flor da noite`
         img.src = 'imagens/noite.png.jpg'
         document.body.style.background = 'black'
+        h1.innerText = 'Boa Noite!'
     }
 
 }

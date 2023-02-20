@@ -1,4 +1,3 @@
-
 body {
     background-color: rgb(86, 135, 226);
 }
@@ -23,7 +22,8 @@ section {
     background-color: white;
     border-radius: 10px; /* Para curvar a bordar */
     padding: 15px;
-    width: 500px;
+    width: 300px;
+    height: 290px;
     margin: auto;  /* Para centralizar a section */
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.449);
 }
@@ -34,8 +34,9 @@ div {
 }
 
 img {
-    width: 500px;
-    height: 350px;
+    padding: 20px;
+    width: 250px;
+    height: 200px;
 }
 
 footer {
