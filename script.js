@@ -21,7 +21,7 @@ function carregar() {
         //boa tarde
         msg.innerHTML += `<br>Tenha uma ótima tarde! Good Evening!!`
         img.src = 'imagens/tarde.png.jpg'
-        document.body.style.background = 'Darkorange'
+        document.body.style.background = 'Darkorange' 
         h1.innerText = 'Boa Tarde!'
     } else {
         // boa noite

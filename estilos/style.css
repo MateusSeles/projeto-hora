@@ -11,19 +11,21 @@ h1 {
     background-color: black;
     color: white;
     width: 300px;
-    height: 40px;
+    height: 20px;
     padding: 10px;
+    padding-bottom: 25px;
     margin: auto;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 5px;
+    border-radius: 40px;
 }
 
 section {
     background-color: white;
     border-radius: 10px; /* Para curvar a bordar */
-    padding: 15px;
+    padding: 0px;
     width: 300px;
-    height: 290px;
+    height: 350px;
     margin: auto;  /* Para centralizar a section */
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.449);
 }
@@ -33,10 +35,19 @@ div {
     box-shadow: 1px 1px 1px 1px black;
 }
 
+div#msg {
+    background-color: rgba(137, 43, 226, 0.623);
+}
+
+div#foto {
+    background-color: rgba(205, 184, 224, 0.936);
+}
+
 img {
+    border-radius: 50%;
     padding: 20px;
     width: 250px;
-    height: 200px;
+    height: 250px;
 }
 
 footer {
